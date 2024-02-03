@@ -95,6 +95,7 @@ strong {
   color:#ff9253;
 }
 .iframe-video {
+  display: none;
   aspect-ratio: 16/9;
   width: 42rem;
   border-radius: 2.5rem;
