@@ -11,6 +11,10 @@ html {
   
 }
 
+ul {
+  list-style: none;
+}
+
 body {
   color: #404040;
   font-family: "Montserrat", sans-serif;
@@ -25,8 +29,9 @@ h1 {
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 2,76rem;
   font-weight: 400;
+  line-height:1.1;
 }
 strong {
   font-weight: 600;
@@ -103,6 +108,38 @@ strong {
 
 /* seção conteudos gratuitos */
 
+.caixa-cursos-hashtag{
+  box-shadow: inset 0 0 0.8rem 0.1rem rgba(0, 0, 0, 0.15) ;
+  border-radius: 2.5rem;
+  padding: 2rem;
+  position: relative;
+  
+}
+.caixa-gratuito-h3 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: inline-block;
+  background-image: linear-gradient(90deg, #aa56e6, #6d42b9);
+  padding: 0.42rem 1.6rem;
+  border-radius: 1rem;
+  color: white;
+  transform: rotate(-3deg) translate(-50%, -50%);
+  box-shadow: 0 0.21rem 0.8rem rgba(0, 0, 0, 0.15) ;}
+
+.ciruclo-logo-curso {
+  display: inline-block;
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #e7e7e7;
+  border-radius: 50%;
+  padding: 1.02rem;
+  box-shadow: inset 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.15);
+}
+  
+.ciruclo-logo-curso img {
+   width: 100%;
+ }
 .gratuito-realce {
   color: #7a40be;
   font-weight: 600;
@@ -113,10 +150,37 @@ strong {
   font-weight: 700;
 }
 
-.gratuito-link-lista {
-  font-size: 1.9rem;
+.gratuito-link-lista:link,
+.gratuito-link-lista:visited {
+  display: inline-block;
+  padding: 0.42rem 3.12rem;
+  background-color: #eee;
+  border-radius: 2.5rem;
+  box-shadow: inset 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.15);
+  font-size: 1.92rem;
   text-decoration: none;
+  color: inherit;
 }
+.gratuito-link-lista:hover,
+.gratuito-link-lista:visited {
+  text-decoration: underline;
+
+}
+.gratuito-link-lista img {
+  width: 1.8rem;
+}
+
+.secao-conteudos {
+  background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-02.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.img-conteudos {
+  width: 44rem;
+}
+
 
 /* Seção Diferenciais */
 
